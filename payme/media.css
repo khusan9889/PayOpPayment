@@ -1,0 +1,75 @@
+@media(max-width: 1220px) {
+    body{
+        width: 900px !important;
+    }
+    .thrd, .scnd{
+        display: none;
+    }
+    .flags-img{
+        width: calc(100% / 3);
+    }
+    .flags-img:last-child{
+        width: 100%;
+        text-align: center;
+    }
+    .countries-img{
+        width: calc(100% / 3);
+    }
+}
+@media(max-width: 950px) {
+    body{
+        width: 600px !important;
+    }
+    .payment-methods{
+        padding-bottom: 30px;
+    }
+    .payment-methods > h4{
+        display: block;
+        width: 100%;
+    }
+    .payment-methods > span{
+        width: 100%;
+        text-align: start;
+    }
+}
+@media(max-width:784px){
+    .tick{
+        width: 100%;
+        margin-bottom: 10px ;
+    }
+}
+@media(max-width: 650px) {
+    .big{
+        width: 100%;
+    }
+    .last{
+        width: 100%;
+    }
+    body{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90% !important;
+    }
+    .frth > button{
+        font-size: 11px !important;
+        width: 180px;
+    }
+    .main-footer * {
+        font-size: 11px;
+    }
+    .payment-methods{
+        padding-bottom: 30px;
+    }
+    .payment-methods > h4{
+        display: block ; 
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    .flags-img{
+        width: calc(100% /2);
+    }
+    .countries-img{
+        width: calc(100% / 2);
+    }
+}
